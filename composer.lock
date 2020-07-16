@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74a749574e0f40df27b0061a71e2b878",
+    "content-hash": "d5a4c476980bcba7db1fdcc6425bbaf8",
     "packages": [
         {
             "name": "league/flysystem",
@@ -599,6 +599,49 @@
                 "orm"
             ],
             "time": "2020-06-22T14:57:28+00:00"
+        },
+        {
+            "name": "topthink/think-swoole",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-swoole.git",
+                "reference": "501a2f104ac39db82414f79749adc8f032273613"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-swoole/zipball/501a2f104ac39db82414f79749adc8f032273613",
+                "reference": "501a2f104ac39db82414f79749adc8f032273613",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-swoole": ">=1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\swoole\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "Swoole extend for thinkphp5",
+            "time": "2018-06-22T08:21:06+00:00"
         }
     ],
     "packages-dev": [
